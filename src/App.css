@@ -1,0 +1,172 @@
+  @media screen and (max-width: 2100px){
+.App{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('./image/mainBackground.jpg') no-repeat;
+  background-size: 100% ;
+  margin: 0 auto;
+  font-family: 'Inconsolata', monospace;
+}
+.Page{
+    display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  background-size: 100% ;
+  margin: 0 auto;
+  font-family: 'Inconsolata', monospace;
+}
+.App a{
+  text-decoration: none;
+  color: black;
+}
+  .cities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 50px;
+    margin-top: 20px;
+  }
+  .City{
+    width: 150px ;
+    height: 260px;
+    background-color: white;
+    box-shadow: 7px 5px 15px black;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+  .title h1 {
+  padding-top: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+}
+.temp h1{
+    color: black;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+.tempInfo h1{
+  color: black;
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0 auto;
+  margin-left: 40px;
+  padding: 0 auto;
+
+}
+.Clock {
+  padding: 30px;
+  color: black;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+}
+.Clock h2{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+  width: 300px;
+  margin: 10px;
+}
+.Weather{
+  text-align: center;
+  font-size: 10px;
+  font-weight: 100;
+}
+.CityInfo{
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 100;
+}
+.CityInfo .city h1{
+  padding: 30px;  
+  font-weight: 100;
+}
+.tempflex{
+  display: flex;
+}
+.tempMin{
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+
+}
+.tempflex h2{
+  margin: 0 auto;
+  margin-left: 40px;
+    font-weight: 100; 
+}
+.infoblock{
+  background-color: #9f9f9f;
+  margin: 30px;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 7px 5px 15px black;
+    opacity: 0.6;
+
+}
+.infoblock h2{
+  margin-left: 15px;
+}}
+  @media screen and (max-width: 700px){
+.Page{
+  background-color: #1c425f;
+}
+.Clock{
+  color: white;
+}
+.CityInfo{
+  background-color: #1c425f;
+  color: white;
+}
+.tempInfo h1{
+  color: white;
+
+}
+.infoblock{
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+      .cities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url('./image/phoneWallPaper.jpg') no-repeat;
+    background-size: 150%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  .City{
+    margin-left: 17px;
+  }
+}
+  @media screen and (max-width: 400px){
+
+      .City{
+    margin-left: 17px;
+    width: 120px ;
+    height: 180px;
+  }
+  .title h1{
+    font-size: 18px;
+  }
+  .temp h1{
+    font-size: 18px;
+  }
+  }
